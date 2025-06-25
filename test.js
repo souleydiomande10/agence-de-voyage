@@ -579,3 +579,133 @@ for(let s = 0; s < prenom.length; s++){
     console.log(`mise a jour ${prenom [s]}`);
 }*/
 
+/*let ami = ["travail", "pouvoir", "argent"];
+for (let i = 0; i < ami.length; i++){
+    console.log(`mon ami s'appelle ${ami[i]}.`)
+}
+
+ami.push("femme");
+ami.shift();
+
+for (let d = 0 ; d < ami.length; d++){
+    console.log(`mon ami est ${ami[d]}`)
+}
+
+console.log(`votre nombre total d'ami est : ${ami.length}`);*/
+/*ami.forEach(function(ami)
+    {console.log(`voici mon ami : ${ami}`);}
+)
+
+ami.sort();
+console.log(ami);
+
+console.log(ami.includes("femmes"));
+console.log(ami.includes("pouvoir"));
+
+let boss = ami.join(", ");
+console.log(boss);*/
+
+/*let prenom = ["gedeon", "silvestre", "christ", "marie"];
+prenom.forEach(function(prenom){
+    alert(`la liste des prenoms : ${prenom}`);
+})
+
+let bic = prompt("veuillez entrez un prenom : ").toLowerCase().trim();
+
+if (prenom.includes(bic)){
+    alert("Ce prenom est dans la liste");
+}else{
+    alert("Ce prenom est introuvable");
+}*/
+
+// passons chapitre des chaines caractere
+
+/*let nom = "souleymane"
+let phrase = "je suis un developpeur"
+console.log(nom.toUpperCase());
+console.log(`${phrase}, ${nom}`);
+console.log(phrase.length);
+console.log(phrase.slice(0, 15));*/
+
+/*et phrase = " JavaScript c'est cool "
+console.log(phrase.length); // permet de trouver le nombre caractere
+console.log(phrase.trim()); // permet de supprimer les espaces vides
+console.log(phrase.toUpperCase()); // permet de mettre en majuscule
+console.log(phrase.includes("cool")); // premet de retrouver le mot dans la phrase
+console.log(phrase.indexOf("cool")); //permet de retrouver la position
+let bos = phrase.replace("cool", "magnifique"); // permet remplacer un mot
+console.log(bos);*/
+
+// chapitre sur les objets
+
+/*let mcp = {
+    nom : "mcp mat cuisine",
+    abonnée : "16",
+    outils:  "utensile de cuisine",
+    dateDeCretion : "2 - 01 - 2025",
+    couleur : "bleu - orange",
+    admin : "souleymane"
+}
+
+// comment acceder aux données d'un objet
+
+console.log(mcp.nom); // la methode avce le point 
+console.log(mcp.admin);// on prend le nom de la variable ensuite le nom de la variable a l'interieur de l'accolade
+
+console.log(mcp["outils"]);// la methode avec le crochet
+console.log(mcp["couleur"]);// on prend le nom de la variable ensuite la variable a l'interieur de l'accolade
+
+// comment modifier ou ajouter des données dans un objet
+
+mcp.abonnée = 30; // permet de modifier les données
+console.log(mcp.abonnée);
+
+mcp.badge = "vert"; // permet de ajouter les données
+console.log(mcp.badge);*/
+
+// exercice sur les objets
+
+/*let voiture = {
+    marque : "audi",
+    modele : "v6",
+    annee : 2016,
+    estElectrique : true
+}
+console.log(voiture.marque);
+console.log(voiture.modele);
+console.log(voiture.annee);
+console.log(voiture.estElectrique);
+
+voiture.annee = 2023;
+console.log(voiture.annee);
+
+voiture.couleur = "bleu";
+console.log(voiture.couleur);
+
+console.log(voiture);*/
+
+/*let Livre = {
+    titre : "le vieil et la mer",
+    auteur : "Enerst hemingway",
+    annee : 1975,
+    disponible : true
+}
+
+console.log(Livre.titre);
+console.log(Livre.auteur);
+console.log(Livre.annee);
+console.log(Livre.disponible);
+
+Livre.annee = 2020;
+
+Livre.langue = "française";
+
+console.log(Livre);
+
+if (Livre.disponible === true){
+    console.log("Livre est disponible");
+}else{
+    console.log("aucun resultat");
+}
+
+console.log(Livre)*/
