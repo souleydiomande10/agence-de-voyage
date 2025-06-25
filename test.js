@@ -709,3 +709,38 @@ if (Livre.disponible === true){
 }
 
 console.log(Livre)*/
+
+let livres = [
+    {titre : "le petit prince", auteur : "antoine de saint-Exupéry", année : 1943},
+    {titre : "l'alchimiste'", auteur : "paulo Coelho", année : 1988},
+    {titre : "les misérables", auteur : "victor Hugo", année : 1862}
+]
+
+livres.forEach(function(livre){
+    console.log(`${livre.titre} de ${livre.auteur} est sortie en ${livre.année}.`)
+});
+
+// exercice sur les tableaux d'objets
+
+let produits = [
+    {Nom : "velo", prix : 15000, disponible : true },
+    {Nom : "samsung", prix : 150000, disponible : true },
+    {Nom : "maillot", prix : 25000, disponible : false},
+]
+
+let DispoCount= 0;
+
+produits.forEach(function(produit){
+    console.log(`${produit.Nom} est de ${produit.prix} Fcfa.`)
+
+    if(produit.disponible === true){
+        console.log(`ce ${produit.Nom} est diponible`);
+        DispoCount++;
+    }else{
+        console.log(`Desolé ${produit.Nom} est en manque`);
+    }
+})
+
+console.log(`le nombre total de produit disponible : ${DispoCount}`);
+
+
