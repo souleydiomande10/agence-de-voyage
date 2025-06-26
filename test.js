@@ -710,7 +710,7 @@ if (Livre.disponible === true){
 
 console.log(Livre)*/
 
-let livres = [
+/*let livres = [
     {titre : "le petit prince", auteur : "antoine de saint-Exupéry", année : 1943},
     {titre : "l'alchimiste'", auteur : "paulo Coelho", année : 1988},
     {titre : "les misérables", auteur : "victor Hugo", année : 1862}
@@ -744,3 +744,4 @@ produits.forEach(function(produit){
 console.log(`le nombre total de produit disponible : ${DispoCount}`);
 
 
+*/

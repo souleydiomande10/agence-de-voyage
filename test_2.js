@@ -59,7 +59,7 @@ LancerProjet();*/
 
 //exercice pour les employée
 
-function AfficherEmploie(){
+/*function AfficherEmploie(){
     let nmbreEmployee = Number(prompt("veuillez saisir le nombre employés a enregistrer :"));
     let employés = [];
     let TotalSalaire = 0;
@@ -119,4 +119,4 @@ function AfficherEmploie(){
         })
 }
 
-AfficherEmploie();
+AfficherEmploie();*/
